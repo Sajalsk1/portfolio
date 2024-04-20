@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+.nav-wrap{
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+.nav-left {
+    display: flex;
+    flex: 1;
+    gap: 2rem;
+    align-items: center;
+}
+
+.nav-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.nav-list{
+    flex: 10;
+
+}
+
+.nav-list>ul{
+display: flex;
+gap: 2rem;
+margin-right: 4rem;
+}
+
+.nav-list>ul>li:hover{
+    cursor: pointer;
+    color: var(--orange);
+
+}
+
+.nav-btn{
+    flex: 2;
+}
